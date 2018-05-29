@@ -1,0 +1,90 @@
+\hypertarget{main_8cpp}{}\section{main.\+cpp File Reference}
+\label{main_8cpp}\index{main.\+cpp@{main.\+cpp}}
+
+
+criação de um programa em que imprime todos os números primos entre 1 e o número digitado  
+
+
+{\ttfamily \#include $<$iostream$>$}\newline
+{\ttfamily \#include $<$algorithm$>$}\newline
+{\ttfamily \#include $<$vector$>$}\newline
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+{\footnotesize template$<$typename Primos $>$ }\\void \mbox{\hyperlink{main_8cpp_a7152ef127d3fb2d2a4d19b129efdd2de}{print\+\_\+primos}} (Primos max\+\_\+num)
+\begin{DoxyCompactList}\small\item\em criação do template typename Primos print\+\_\+primos \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{main_8cpp_abf9e6b7e6f15df4b525a2e7705ba3089}{main}} (int argc, char const $\ast$argv\mbox{[}$\,$\mbox{]})
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+criação de um programa em que imprime todos os números primos entre 1 e o número digitado 
+
+\begin{DoxyAuthor}{Author}
+Vinícius Ribeiro Bulcão 
+\end{DoxyAuthor}
+\begin{DoxySince}{Since}
+27/05/2018 
+\end{DoxySince}
+\begin{DoxyDate}{Date}
+28/05/2018 
+\end{DoxyDate}
+
+
+\subsection{Function Documentation}
+\mbox{\Hypertarget{main_8cpp_abf9e6b7e6f15df4b525a2e7705ba3089}\label{main_8cpp_abf9e6b7e6f15df4b525a2e7705ba3089}} 
+\index{main.\+cpp@{main.\+cpp}!main@{main}}
+\index{main@{main}!main.\+cpp@{main.\+cpp}}
+\subsubsection{\texorpdfstring{main()}{main()}}
+{\footnotesize\ttfamily int main (\begin{DoxyParamCaption}\item[{int}]{argc,  }\item[{char const $\ast$}]{argv\mbox{[}$\,$\mbox{]} }\end{DoxyParamCaption})}
+
+criação do vector v para elementos int
+
+chamada de print\+\_\+numeros()\mbox{\Hypertarget{main_8cpp_a7152ef127d3fb2d2a4d19b129efdd2de}\label{main_8cpp_a7152ef127d3fb2d2a4d19b129efdd2de}} 
+\index{main.\+cpp@{main.\+cpp}!print\+\_\+primos@{print\+\_\+primos}}
+\index{print\+\_\+primos@{print\+\_\+primos}!main.\+cpp@{main.\+cpp}}
+\subsubsection{\texorpdfstring{print\+\_\+primos()}{print\_primos()}}
+{\footnotesize\ttfamily template$<$typename Primos $>$ \\
+void print\+\_\+primos (\begin{DoxyParamCaption}\item[{Primos}]{max\+\_\+num }\end{DoxyParamCaption})}
+
+
+
+criação do template typename Primos print\+\_\+primos 
+
+criação de cinco parâmetros int 
+\begin{DoxyParams}{Parameters}
+{\em temp} & vai estar recebendo o número máximo \\
+\hline
+{\em num} & que vai fazer a contagem de 1 ao temp \\
+\hline
+{\em i} & um parâmetro de controle \\
+\hline
+{\em contador\+\_\+resto} & vai controlar a quantidade de restos \\
+\hline
+{\em resto} & é simplesmente o resto da divisão\\
+\hline
+\end{DoxyParams}
+criação de um vector v com elementos int ~\newline
+~\newline
+~\newline
+~\newline
+ criação de um laço indo de num=1 ao num$<$=temp, sempre somando 1 a num ~\newline
+~\newline
+~\newline
+
+
+criação de uma condicional para num =1
+
+dando push\+\_\+back ao numero primo ~\newline
+~\newline
+~\newline
+
+
+criação de um laço indo de i=1 ao i$<$=temp, sempre somando 1 a i
+
+fazendo a contagem da quantidade de restos, se resto = 0 e a contador\+\_\+resto $>$ 2, o número não é primo
+
+criação de uma condicional para contador\+\_\+resto =2
+
+se contador\+\_\+resto =2, o número é primo, logo após dando push\+\_\+back ao numero primo ~\newline
+ 
