@@ -1,0 +1,70 @@
+\hypertarget{main_8cpp}{}\section{main.\+cpp File Reference}
+\label{main_8cpp}\index{main.\+cpp@{main.\+cpp}}
+
+
+criação de um programa no qual imprime os números ordenados e não repetidos  
+
+
+{\ttfamily \#include $<$iostream$>$}\newline
+{\ttfamily \#include $<$set$>$}\newline
+{\ttfamily \#include $<$algorithm$>$}\newline
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+{\footnotesize template$<$typename T\+Container $>$ }\\void \mbox{\hyperlink{main_8cpp_adf07efaecf4a60b87a8e74210855bd46}{print\+\_\+elements}} (const T\+Container \&collection, const char $\ast$label=\char`\"{}\char`\"{}, const char separator=\textquotesingle{} \textquotesingle{})
+\begin{DoxyCompactList}\small\item\em Template T\+Container print\+\_\+elements criando const T\+Container\& collection recebendo o vetor, const char$\ast$ label recebendo um oustream, cont char recebendo o que irá separar os parâmetros. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{main_8cpp_abf9e6b7e6f15df4b525a2e7705ba3089}{main}} (int argc, char const $\ast$argv\mbox{[}$\,$\mbox{]})
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+criação de um programa no qual imprime os números ordenados e não repetidos 
+
+\begin{DoxyAuthor}{Author}
+Vinícius Ribeiro Bulcão 
+\end{DoxyAuthor}
+\begin{DoxySince}{Since}
+27/05/2018 
+\end{DoxySince}
+\begin{DoxyDate}{Date}
+28/05/2018 
+\end{DoxyDate}
+
+
+\subsection{Function Documentation}
+\mbox{\Hypertarget{main_8cpp_abf9e6b7e6f15df4b525a2e7705ba3089}\label{main_8cpp_abf9e6b7e6f15df4b525a2e7705ba3089}} 
+\index{main.\+cpp@{main.\+cpp}!main@{main}}
+\index{main@{main}!main.\+cpp@{main.\+cpp}}
+\subsubsection{\texorpdfstring{main()}{main()}}
+{\footnotesize\ttfamily int main (\begin{DoxyParamCaption}\item[{int}]{argc,  }\item[{char const $\ast$}]{argv\mbox{[}$\,$\mbox{]} }\end{DoxyParamCaption})}
+
+criação de um set numeros com seus elementos inteiros
+
+chamada do template print\+\_\+elements, no qual recebe os parâmetros numeros, o ostream C\+SV Set e a \textquotesingle{};\textquotesingle{} como separador\mbox{\Hypertarget{main_8cpp_adf07efaecf4a60b87a8e74210855bd46}\label{main_8cpp_adf07efaecf4a60b87a8e74210855bd46}} 
+\index{main.\+cpp@{main.\+cpp}!print\+\_\+elements@{print\+\_\+elements}}
+\index{print\+\_\+elements@{print\+\_\+elements}!main.\+cpp@{main.\+cpp}}
+\subsubsection{\texorpdfstring{print\+\_\+elements()}{print\_elements()}}
+{\footnotesize\ttfamily template$<$typename T\+Container $>$ \\
+void print\+\_\+elements (\begin{DoxyParamCaption}\item[{const T\+Container \&}]{collection,  }\item[{const char $\ast$}]{label = {\ttfamily \char`\"{}\char`\"{}},  }\item[{const char}]{separator = {\ttfamily \textquotesingle{}~\textquotesingle{}} }\end{DoxyParamCaption})}
+
+
+
+Template T\+Container print\+\_\+elements criando const T\+Container\& collection recebendo o vetor, const char$\ast$ label recebendo um oustream, cont char recebendo o que irá separar os parâmetros. 
+
+criação de dois parâmetros int 
+\begin{DoxyParams}{Parameters}
+{\em i} & criado para ajudar no laço para implementação do num \\
+\hline
+{\em aux} & criado a atribuição do número do vetor\\
+\hline
+\end{DoxyParams}
+criação de um set numeros do tipo inteiro
+
+inserindo com numeros.\+insert(temp) os elementos em set ~\newline
+~\newline
+~\newline
+ criação de um iterator set para inteiros co vetor ~\newline
+~\newline
+ criação de um laço indo de it=numeros.\+begin() ao it!=numeros.\+end(), sempre mudando a para onde it aponta com it++
+
+criação de um laço indo de it=numeros.\+begin() ao it!=numeros.\+end(), sempre mudando a para onde it aponta com it++ 
